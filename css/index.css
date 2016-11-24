@@ -12,12 +12,12 @@
     text-align: center;
 }
 #title {
-    float: left;
+/*    float: left;*/
 }
 #menu {
-    float: left;
-    margin-left: 50px;
-    margin-top: -3px;
+/*    float: left;*/
+/*    margin-left: 50px;*/
+    margin-top: 3px;
 }
 #menu > ul {
     margin: 0 auto;
