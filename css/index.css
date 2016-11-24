@@ -4,10 +4,35 @@
 }
 
 #navbar {
-    height: 40px;
+    height: 30px;
     background-color: #2a3365;
     border-radius: 5px;
     padding: 10px;
     color: azure;
     text-align: center;
+}
+#title {
+    float: left;
+}
+#menu {
+    float: left;
+    margin-left: 50px;
+    margin-top: -3px;
+}
+#menu > ul {
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 3px;
+
+}
+
+#menu > ul > li {
+    display: inline-block;
+    color: azure;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-right: 2px solid yellow;
+    padding: 5px;
+    border-radius: 3px;
 }
